@@ -1,0 +1,6 @@
+.catch-snitch {
+  position: absolute;
+  transition: top 0.1s linear, left 0.1s linear; 
+  width: 200px; 
+  height: 150px;
+}

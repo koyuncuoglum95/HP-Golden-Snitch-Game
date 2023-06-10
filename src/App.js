@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CatchGoldenSnitch from './CatchGoldenSnitch';
 
-function App() {
+function App() {  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h1 className='letter-container'>Harry Potter Catch The Golden Snitch Game</h1>
+      </div>
+      <div className="game-area">
+        <CatchGoldenSnitch />
+      </div>
     </div>
   );
 }
